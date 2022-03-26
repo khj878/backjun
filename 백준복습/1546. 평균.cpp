@@ -5,7 +5,7 @@
 using namespace std;
 
 int N;
-vector<int> arr(101, 0);
+vector<int> arr(1001, 0);
 
 int main()
 {
@@ -17,19 +17,16 @@ int main()
 	for (int i = 0; i < N; i++) {
 		cin >> arr[i];
 	}
+	sort(arr.begin(), arr.begin() + N);
 
-	int sums = 0;
-	int cnt = 1;
+	int M = arr[N - 1];
+	double sums = 0;
 	for (int i = 0; i < N; i++) {
-		if (arr[i]) {
-			sums += cnt;
-			cnt++;
-		}
-		else {
-			cnt = 1;
-		}
+		sums += (double)arr[i] / ((double)M * 100);
 	}
-	cout << sums;
+	sums *= 10000;
+	cout.precision(6);
+	cout << sums / N;
 
 	return 0;
 }
