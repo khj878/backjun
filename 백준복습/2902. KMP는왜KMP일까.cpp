@@ -1,19 +1,27 @@
 #include <iostream>
-#include <cstdio>
 #include <string>
 #include <vector>
 #include <algorithm>
 using namespace std;
 
-#define R 101
-#define r(i, N) for(int i = 0; i < N; i++)
-#define rr(i, N) for(int i = 0; i <= N; i++)
+string S;
 
 int main()
 {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
+	cin >> S;
+	string res = "";
+	res += S[0];
+	for (int i = 1; i < S.length(); i++) {
+		if (S[i] == '-' && S.length() > i + 1) {
+			res += S[i + 1];
+		}
+	}
+	cout << res;
+
 
 	return 0;
 }

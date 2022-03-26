@@ -4,14 +4,18 @@
 22.03.22 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=665348
 22.03.25 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=670928
 22.03.25 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=721224
+22.03.26 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=778420
 
 못푼문제/나중에풀문제
 2178. 미로탐색
 1009. 분산처리
+10383. 사과
 
 안풀문제
 2556. 별찍기 - 14
 3009. 네 번째 점
+9243. 파일 완전 삭제
+10950. A+B-3 이후 A+B류 문제 제외
 
 기타
 2744. 대소문자 바꾸기(22.03.25)

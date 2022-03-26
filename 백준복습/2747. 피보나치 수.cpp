@@ -5,7 +5,7 @@
 using namespace std;
 
 int N;
-string S1, S2;
+vector<long long> arr(46, 0);
 
 int main()
 {
@@ -13,14 +13,15 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	cin >> S1 >> S2;
-	bool flag = true;
-	bool toggle = false;
-	int cnt = 0;
+	cin >> N;
 
-	for (int i = 0; i < S1.length(); i++) {
-
+	arr[0] = 0;
+	arr[1] = 1;
+	for (int i = 2; i <= 45; i++) {
+		arr[i] = arr[i - 1] + arr[i - 2];
 	}
+	cout << arr[N];
+	
 
 	return 0;
 }
