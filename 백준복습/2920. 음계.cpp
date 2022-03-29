@@ -20,7 +20,7 @@ int main()
 	r(i, R) {
 		cin >> arr[i];
 	}
-	
+
 	if (arr[0] == 1) {
 		bool flag = true;
 		for (int i = 0; i < R - 1; i++) {

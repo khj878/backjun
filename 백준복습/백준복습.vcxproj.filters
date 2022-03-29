@@ -303,6 +303,24 @@
     <ClCompile Include="2920. 음계.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1964. 오각형오각형오각형.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3003. 킹퀸룩비숍나이트폰.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1676. 팩토리얼0의개수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6996. 애너그램.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2857. FBI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2755. 이번학기 평점은 몇점.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">

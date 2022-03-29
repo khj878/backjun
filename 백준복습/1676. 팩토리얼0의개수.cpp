@@ -5,7 +5,7 @@
 #include <algorithm>
 using namespace std;
 
-#define R 1004
+#define R 101
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
 
