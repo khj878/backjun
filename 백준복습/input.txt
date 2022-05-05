@@ -1,8 +1,9 @@
+20
 7
-General_Physics_1 3 A+
-Introduction_to_Computer_Science_and_Eng 3 B0
-Reading_And_Writing 2 C0
-English_1 3 C+
-Analytic_Geometry_and_Calculus_1 3 B+
-Fortran_Programming 3 B+
-C_Language_Programming 3 A+
+23
+19
+10
+15
+25
+8
+13

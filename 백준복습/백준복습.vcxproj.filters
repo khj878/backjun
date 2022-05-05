@@ -321,6 +321,15 @@
     <ClCompile Include="2755. 이번학기 평점은 몇점.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2751. 수 정렬하기2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2309. 일곱난쟁이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1550. 16진수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
