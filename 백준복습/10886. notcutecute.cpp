@@ -9,29 +9,27 @@ using namespace std;
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
 
-string s;
+int N, A, B;
 
 int main()
 {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
-	
-	cin >> s;
 
-	int res = 0;
-	int base = 1;
-	for (int i = s.length() - 1; i >= 0; i--) {
-		if (s[i] >= '0' && s[i] <= '9') {
-			res += base * (s[i] - '0');
+	cin >> N;
+	int vote;
+	for (int i = 0; i < N; i++) {
+		cin >> vote;
+		if (vote) {
+			A++;
 		}
 		else {
-			res += base * (s[i] - 'A' + 10);
+			B++;
 		}
-		base *= 16;
 	}
-	cout << res;
-
+	if (A > B) cout << "Junhee is cute!";
+	else cout << "Junhee is not cute!";
 
 	return 0;
 }
