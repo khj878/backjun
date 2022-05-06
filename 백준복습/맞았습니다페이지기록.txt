@@ -6,6 +6,7 @@
 22.03.25 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=721224
 22.03.26 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=778420
 22.05.05 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=814510
+22.05.06 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=866539
 
 못푼문제/나중에풀문제
 2178. 미로탐색
@@ -14,6 +15,7 @@
 1676. 팩토리얼0의개수
 2755. 이번학기 평점은 몇점
 10833. 사과
+10798. 세로읽기
 
 안풀문제
 2556. 별찍기 - 14
