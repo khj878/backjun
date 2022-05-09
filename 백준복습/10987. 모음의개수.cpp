@@ -5,12 +5,11 @@
 #include <algorithm>
 using namespace std;
 
-#define R 101
+#define R 1004
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
 
-int N;
-vector<bool> arr(R, false);
+string S;
 
 int main()
 {
@@ -18,19 +17,12 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	cin >> N;
-	int res = 0;
-	r(i, N) {
-		int a;
-		cin >> a;
-		if (arr[a]) {
-			res++;
-		}
-		else {
-			arr[a] = true;
-		}
+	cin >> S;
+	int cnt = 0;
+	r(i, S.length()) {
+		if (S[i] == 'a' || S[i] == 'e' || S[i] == 'i' || S[i] == 'o' || S[i] == 'u') cnt++;
 	}
-	cout << res;
+	cout << cnt;
 
 	return 0;
 }

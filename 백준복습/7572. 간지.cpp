@@ -5,12 +5,9 @@
 #include <algorithm>
 using namespace std;
 
-#define R 101
+#define R 1004
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
-
-int N;
-vector<bool> arr(R, false);
 
 int main()
 {
@@ -18,19 +15,11 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	cin >> N;
-	int res = 0;
-	r(i, N) {
-		int a;
-		cin >> a;
-		if (arr[a]) {
-			res++;
-		}
-		else {
-			arr[a] = true;
-		}
-	}
-	cout << res;
+	int input;
+	cin >> input;
+	input %= 60;
+	cout << input;
+
 
 	return 0;
 }

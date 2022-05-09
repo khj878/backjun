@@ -5,12 +5,12 @@
 #include <algorithm>
 using namespace std;
 
-#define R 101
+#define R 1004
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
 
 int N;
-vector<bool> arr(R, false);
+vector<unsigned long long> arr(13, 1);
 
 int main()
 {
@@ -19,18 +19,13 @@ int main()
 	cout.tie(NULL);
 
 	cin >> N;
-	int res = 0;
-	r(i, N) {
-		int a;
-		cin >> a;
-		if (arr[a]) {
-			res++;
-		}
-		else {
-			arr[a] = true;
-		}
+
+	arr[1] = 1;
+	for (int i = 2; i <= 12; i++) {
+		arr[i] = arr[i - 1] * i;
 	}
-	cout << res;
+
+	cout << arr[N];
 
 	return 0;
 }

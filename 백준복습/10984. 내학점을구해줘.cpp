@@ -5,12 +5,11 @@
 #include <algorithm>
 using namespace std;
 
-#define R 101
+#define R 1004
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
 
-int N;
-vector<bool> arr(R, false);
+int T, N;
 
 int main()
 {
@@ -18,19 +17,23 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	cin >> N;
-	int res = 0;
-	r(i, N) {
-		int a;
-		cin >> a;
-		if (arr[a]) {
-			res++;
+	cout << fixed;
+	cout.precision(1);
+
+	cin >> T;
+	r(t, T) {
+		cin >> N;
+		int input1;
+		double input2;
+		int sum1 = 0;
+		double sum2 = 0;
+		r(i, N) {
+			cin >> input1 >> input2;
+			sum1 += input1;
+			sum2 += input2 * input1;
 		}
-		else {
-			arr[a] = true;
-		}
+		cout << sum1 << " " << sum2 / sum1 << '\n';
 	}
-	cout << res;
 
 	return 0;
 }

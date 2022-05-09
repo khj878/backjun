@@ -7,6 +7,8 @@
 22.03.26 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=778420
 22.05.05 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=814510
 22.05.06 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=866539
+22.05.09 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=983034
+
 
 못푼문제/나중에풀문제
 2178. 미로탐색
@@ -18,6 +20,7 @@
 10798. 세로읽기
 3034. 앵그리창영
 5211. 가단조와 다장조
+2998. 8진수
 
 안풀문제
 2556. 별찍기 - 14

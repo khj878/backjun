@@ -5,12 +5,11 @@
 #include <algorithm>
 using namespace std;
 
-#define R 101
+#define R 1004
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
 
-int N;
-vector<bool> arr(R, false);
+int T;
 
 int main()
 {
@@ -18,19 +17,23 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	cin >> N;
-	int res = 0;
-	r(i, N) {
-		int a;
-		cin >> a;
-		if (arr[a]) {
-			res++;
+	cin >> T;
+	r(t, T) {
+		vector<int> arr(3, 0);
+		r(i, 3) {
+			cin >> arr[i];
+		}
+		sort(arr.begin(), arr.begin() + 3);
+
+		cout << "Scenario #" << t + 1 << ":\n";
+		if (arr[0] * arr[0] + arr[1] * arr[1] == arr[2] * arr[2]) {
+			cout << "yes\n";
 		}
 		else {
-			arr[a] = true;
+			cout << "no\n";
 		}
+		cout << "\n";
 	}
-	cout << res;
 
 	return 0;
 }
