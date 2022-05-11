@@ -438,6 +438,15 @@
     <ClCompile Include="1110. 더하기사이클.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1157. 단어공부.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4597. 패리티.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11004. K번째수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
