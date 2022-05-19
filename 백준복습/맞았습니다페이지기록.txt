@@ -9,7 +9,7 @@
 22.05.06 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=866539
 22.05.09 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=983034
 22.05.11 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=1026768
-
+22.05.19 https://www.acmicpc.net/status?user_id=khj878&result_id=4&top=1085312
 
 못푼문제/나중에풀문제
 2178. 미로탐색
