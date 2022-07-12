@@ -1,1 +1,5 @@
-It is not a prime word.
+1 is NOT a multiple of 3.
+7 is NOT a multiple of 3.
+99 is a multiple of 3.
+321 is a multiple of 3.
+777 is a multiple of 3.
