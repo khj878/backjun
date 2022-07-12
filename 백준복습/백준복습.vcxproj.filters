@@ -453,7 +453,19 @@
     <ClCompile Include="10988. 팰린드롬인지 확인하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="5704. 팬그램.cpp">
+    <ClCompile Include="5789. 한다 안한다.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5218. 알파벳 거리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10474. 분수좋아해.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6359. 만취한상범.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2153. 소수 단어.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
