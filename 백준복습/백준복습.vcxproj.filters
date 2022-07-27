@@ -501,6 +501,12 @@
     <ClCompile Include="6763. Speed fines are not fine!.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6764. Sounds fishy!.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6778. Which Alien.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
