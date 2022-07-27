@@ -9,7 +9,7 @@ using namespace std;
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
 
-int A, E;
+vector<vector<int>> arr(9, vector<int>(9,0);
 
 int main()
 {
