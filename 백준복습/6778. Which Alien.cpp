@@ -9,7 +9,7 @@ using namespace std;
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
 
-vector<vector<int>> arr(9, vector<int>(9,0);
+int A, E;
 
 int main()
 {
@@ -18,14 +18,14 @@ int main()
 	cout.tie(NULL);
 
 	cin >> A >> E;
-	if (A >= 6) {
-		if (E >= 2) cout << "TroyMartian";
+	if (A >= 3 && E <= 4) {
+		cout << "TroyMartian\n";
 	}
-	else if (A >= 3) {
-		if (E <= 4) cout << "VladSaturnian";
+	if (A <= 6 && E >= 2) {
+		cout << "VladSaturnian\n";
 	}
-	else if (A >= 2) {
-		if (E <= 3) cout << "GraemeMercurian";
+	if (A <= 2 && E <= 3) {
+		cout << "GraemeMercurian\n";
 	}
 
 	return 0;

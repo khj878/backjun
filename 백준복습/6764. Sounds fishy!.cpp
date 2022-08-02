@@ -9,7 +9,7 @@ using namespace std;
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
 
-vector<int> arr(4, 0);
+vector<int> a(4, 0);
 
 int main()
 {
@@ -21,30 +21,13 @@ int main()
 
 
 	for (int i = 0; i < 4; i++) {
-		cin >> arr[i];
+		cin >> a[i];
 	}
 
-	if (arr[0] < arr[1]) {
-		res = 1;
-		for (int i = 0; i < 3; i++) {
-			if (arr[i] > arr[i + 1]) {
-				res = 0;
-				break;
-			}
-		}
-	}
-	else if (arr[0] > arr[1]) {
-		res = 2;
-		for (int i = 0; i < 3; i++) {
-			if (arr[i] < arr[i + 1]) {
-				res = 0;
-				break;
-			}
-		}
-	}
+	if (a[0] > a[1] && a[1] > a[2] && a[2] > a[3]) cout << "Fish Diving";
+	else if (a[0] < a[1] && a[1] < a[2] && a[2] < a[3]) cout << "Fish Rising";
+	else if (a[0] == a[1] && a[1] == a[2] && a[2] == a[3]) cout << "Fish At Constant Depth";    
+	else cout << "No Fish";
 
-	if (res == 0) cout << "No Fish";
-	else if (res == 1) cout << "Fish Rising";
-	else if (res == 2) cout << "Fish Diving";
 	return 0;
 }

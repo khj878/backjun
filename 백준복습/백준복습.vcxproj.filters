@@ -522,6 +522,21 @@
     <ClCompile Include="8674. Tabliczka.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6810 ISBN.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8718 Bałwanek.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8723 Patyki .cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8760. Schronisko.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1362. Zero or One.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
