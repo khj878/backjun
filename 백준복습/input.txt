@@ -1,1 +1,6 @@
-1 1 0
+	long long N;
+	long long sum = 0;
+	cin >> N;
+	for (long long i = 1; i < N; i++)
+		sum += N*i + i;
+	cout << sum << endl;

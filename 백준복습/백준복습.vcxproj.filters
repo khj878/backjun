@@ -537,6 +537,18 @@
     <ClCompile Include="1362. Zero or One.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1247. 부호.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1085. 직사각형에서 탈출.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1427. 소트인사이트.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1834. 나머지와 몫이 같은 수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
