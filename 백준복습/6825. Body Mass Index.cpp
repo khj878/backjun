@@ -12,24 +12,21 @@ using namespace std;
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
 
-int N, tmp;
-vector<int> arr(10004, 0);
-
+double res;
+double W, H;
+ 
 int main()
 {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
-	cin >> N;
-	for (int i = 0; i < N; i++) {
-		cin >> tmp;
-		arr[tmp]++;
-	}
-	for (int i = 0; i <= 10000; i++) {
-		if (arr[i] != 0) {
-			for (int j = 0; j < arr[i]; j++)
-				cout << i << "\n";
-		}
-	}
+
+	cin >> W >> H;
+	H = H * H;
+	res = W / H;
+	if (res > 25.0) cout << "Overweight";
+	else if (res > 18.5) cout << "Normal weight";
+	else  cout << "Underweight";
+
 	return 0;
 }

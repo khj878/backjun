@@ -12,24 +12,28 @@ using namespace std;
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
 
-int N, tmp;
-vector<int> arr(10004, 0);
+long long T, N, S;
+long long input;
+vector<int> arr(100004, 0);
 
 int main()
 {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
-	cin >> N;
-	for (int i = 0; i < N; i++) {
-		cin >> tmp;
-		arr[tmp]++;
-	}
-	for (int i = 0; i <= 10000; i++) {
-		if (arr[i] != 0) {
-			for (int j = 0; j < arr[i]; j++)
-				cout << i << "\n";
+
+	cin >> T;
+	for (int t = 0; t < T; t++) {
+		cin >> N;
+		S = 0;
+		for (int i = 0; i < N; i++) {
+			cin >> input;
+			S += input;
+			S %= N;
 		}
+		if (S % N == 0) cout << "YES\n";
+		else cout << "NO\n";
 	}
+
 	return 0;
 }

@@ -522,7 +522,7 @@
     <ClCompile Include="8674. Tabliczka.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6810 ISBN.cpp">
+    <ClCompile Include="6810. ISBN.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="8718 Bałwanek.cpp">
@@ -568,6 +568,48 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10989. 수 정렬하기3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5341. Pramids.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6840. Who is in the middle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8545. Zadanie próbne.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10189 Hook.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5300. Fill the Rowboats!.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5357. depupe.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5358 Football Team.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6825. Body Mass Index.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6841. I Speak TXTMSG.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6887 Squares.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15552. 빠른 A+B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="25083. 새싹.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2547. 사탕 선생 고창영.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2875. 대회 or 인턴.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

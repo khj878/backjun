@@ -12,24 +12,26 @@ using namespace std;
 #define r(i, N) for(int i = 0; i < N; i++)
 #define rr(i, N) for(int i = 0; i <= N; i++)
 
-int N, tmp;
-vector<int> arr(10004, 0);
+int N;
+string S;
 
 int main()
 {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	cin >> N;
-	for (int i = 0; i < N; i++) {
-		cin >> tmp;
-		arr[tmp]++;
-	}
-	for (int i = 0; i <= 10000; i++) {
-		if (arr[i] != 0) {
-			for (int j = 0; j < arr[i]; j++)
-				cout << i << "\n";
+	for (int n = 0; n < N; n++) {
+		cin >> S;
+		for (int i = 0; i < S.length(); i++) {
+			if (S[i] == S[i + 1]) {
+				S.erase(S.begin() + i + 1);
+				i--;
+				//cout << S << "\n";
+			}
 		}
+		cout << S << "\n";
 	}
 	return 0;
 }
