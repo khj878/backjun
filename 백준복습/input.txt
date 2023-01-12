@@ -1,6 +1,1 @@
-	long long N;
-	long long sum = 0;
-	cin >> N;
-	for (long long i = 1; i < N; i++)
-		sum += N*i + i;
-	cout << sum << endl;
+60466175 36
