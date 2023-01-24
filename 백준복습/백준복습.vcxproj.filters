@@ -612,6 +612,12 @@
     <ClCompile Include="2875. 대회 or 인턴.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="19944. 뉴비의 기준은 뭘까.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17388. 와글와글숭고한.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
